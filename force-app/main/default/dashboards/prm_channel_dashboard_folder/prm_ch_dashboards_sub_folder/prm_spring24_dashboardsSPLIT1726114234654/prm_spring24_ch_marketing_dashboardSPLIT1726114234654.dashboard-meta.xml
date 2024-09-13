@@ -33,7 +33,7 @@
                     </groupingSorts>
                 </groupingSortProperties>
                 <legendPosition>Bottom</legendPosition>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1726114234654/prm_spring24_ch_marketing_reports_folderSPLIT1726114234654/prm_mdf_approved_request_by_partnerSPLIT1726114234654</report>
+                <report>prm_spring24_ch_marketing_reports_folderSPLIT1726114234654/prm_mdf_approved_request_by_partnerSPLIT1726114234654</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
@@ -69,7 +69,7 @@
                     </groupingSorts>
                 </groupingSortProperties>
                 <legendPosition>Bottom</legendPosition>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1726114234654/prm_spring24_ch_marketing_reports_folderSPLIT1726114234654/prm_submitted_claim_by_partnerSPLIT1726114234654</report>
+                <report>prm_spring24_ch_marketing_reports_folderSPLIT1726114234654/prm_submitted_claim_by_partnerSPLIT1726114234654</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
@@ -83,6 +83,42 @@
         <dashboardGridComponents>
             <colSpan>4</colSpan>
             <columnIndex>8</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Bar</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>PartnerFundRequest$ChannelPartner</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <legendPosition>Bottom</legendPosition>
+                <report>prm_spring24_ch_marketing_reports_folderSPLIT1726114234654/prm_approved_claim_by_partnerSPLIT1726114234654</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <title>Approved Partner Fund Claims</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>0</columnIndex>
             <dashboardComponent>
                 <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
                 <componentType>FlexTable</componentType>
@@ -111,44 +147,8 @@
                         <sortOrder>a</sortOrder>
                     </groupingSorts>
                 </groupingSortProperties>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1726114234654/prm_spring24_ch_marketing_reports_folderSPLIT1726114234654/prm_total_marketing_budgetSPLIT1726114234654</report>
+                <report>prm_spring24_ch_marketing_reports_folderSPLIT1726114234654/prm_total_marketing_budgetSPLIT1726114234654</report>
                 <title>Total Partner Marketing Budget</title>
-            </dashboardComponent>
-            <rowIndex>0</rowIndex>
-            <rowSpan>8</rowSpan>
-        </dashboardGridComponents>
-        <dashboardGridComponents>
-            <colSpan>4</colSpan>
-            <columnIndex>0</columnIndex>
-            <dashboardComponent>
-                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
-                <chartAxisRange>Auto</chartAxisRange>
-                <chartSummary>
-                    <axisBinding>y</axisBinding>
-                    <column>RowCount</column>
-                </chartSummary>
-                <componentType>Bar</componentType>
-                <decimalPrecision>-1</decimalPrecision>
-                <displayUnits>Auto</displayUnits>
-                <drillEnabled>false</drillEnabled>
-                <drillToDetailEnabled>false</drillToDetailEnabled>
-                <enableHover>false</enableHover>
-                <expandOthers>false</expandOthers>
-                <groupingColumn>PartnerFundRequest$ChannelPartner</groupingColumn>
-                <groupingSortProperties>
-                    <groupingSorts>
-                        <groupingLevel>g1</groupingLevel>
-                        <sortOrder>a</sortOrder>
-                    </groupingSorts>
-                </groupingSortProperties>
-                <legendPosition>Bottom</legendPosition>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1726114234654/prm_spring24_ch_marketing_reports_folderSPLIT1726114234654/prm_approved_claim_by_partnerSPLIT1726114234654</report>
-                <showPercentage>false</showPercentage>
-                <showPicturesOnCharts>false</showPicturesOnCharts>
-                <showValues>true</showValues>
-                <sortBy>RowLabelAscending</sortBy>
-                <title>Approved Partner Fund Claims</title>
-                <useReportChart>false</useReportChart>
             </dashboardComponent>
             <rowIndex>8</rowIndex>
             <rowSpan>8</rowSpan>
@@ -178,7 +178,7 @@
                     </groupingSorts>
                 </groupingSortProperties>
                 <legendPosition>Bottom</legendPosition>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1726114234654/prm_spring24_ch_marketing_reports_folderSPLIT1726114234654/prm_mdf_submitted_request_by_partnerSPLIT1726114234654</report>
+                <report>prm_spring24_ch_marketing_reports_folderSPLIT1726114234654/prm_mdf_submitted_request_by_partnerSPLIT1726114234654</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>

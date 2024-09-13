@@ -20,19 +20,19 @@
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : {
-                "backgroundColor" : "",
-                "isLinkable" : false,
-                "linkAssistiveText" : "",
-                "paddingHorizontal" : "none",
-                "paddingVertical" : "none",
-                "text" : "This is our Portfolio Site!",
-                "textAlign" : "center",
-                "textDecoration" : "{}",
-                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
-              },
-              "definition" : "dxp_base:textBlock",
-              "id" : "0e2ea7bd-bc5e-4f57-9091-8c159aaec06a",
+              "attributes" : { },
+              "definition" : "c:hero",
+              "id" : "6a10e2d5-6561-4fac-a980-7d5f4ec38585",
+              "type" : "component"
+            }, {
+              "attributes" : { },
+              "definition" : "c:skillCards",
+              "id" : "7244b8b2-4af9-475d-b523-cb2565738044",
+              "type" : "component"
+            }, {
+              "attributes" : { },
+              "definition" : "c:aboutMe",
+              "id" : "4fd52fa7-f998-4f76-a83d-cc4075d59d7f",
               "type" : "component"
             } ],
             "id" : "d7e859a7-b480-402b-881f-d4741a6c24ab",

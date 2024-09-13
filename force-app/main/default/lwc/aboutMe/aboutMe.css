@@ -1,20 +1,28 @@
-h1 {
+.outer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
     text-align: center;
     font-size: 48px;
 }
 
+p {
+    font-size: 18px;
+}
+
 img {
-    width: 100%;
     border: 2px solid black;
     border-radius: 7px;
 }
+
+
 
 .text-container {
     margin: 10px;
 }
 
-
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 600px) {
     .container {
         display: flex;
@@ -24,6 +32,7 @@ img {
     .text-container {
         min-width: 40ch;
         max-width: 70ch;
+        margin: 0 15px;
     }
 
     .img-container {

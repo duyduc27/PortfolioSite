@@ -20,6 +20,12 @@
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:navMenu",
+              "id" : "6ebd9d9c-d50c-46ab-b46c-c927df7cca1f",
+              "type" : "component"
+            } ],
             "id" : "861b4ec3-9a25-4683-8e9f-37f2bd21633a",
             "name" : "headerSection",
             "title" : "Theme Header",
@@ -44,18 +50,34 @@
             "layoutDirectionTablet" : "column",
             "maxContentWidth" : "",
             "sectionColumnGutterWidth" : "",
-            "sectionConfig" : "{\"UUID\":\"a7bf7489-84e7-486a-96fa-9fc9a57b8b86\",\"columns\":[{\"UUID\":\"ef098754-be5f-47c5-95ba-e7ef89d9d3f3\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionConfig" : "{\"UUID\":\"bd787f6a-c245-4834-8a76-ae435a642c07\",\"columns\":[{\"UUID\":\"f8c0e2a7-41a9-4112-937e-5e3fdfd52671\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
             "sectionMinHeight" : "",
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
-            "id" : "ef098754-be5f-47c5-95ba-e7ef89d9d3f3",
-            "name" : "footerSection",
-            "title" : "Theme Footer",
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "This site is built using LWR",
+                "textAlign" : "center",
+                "textDecoration" : "{\"italic\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "9f96ed9b-f81a-4b7c-b0e5-c2897b5b80cd",
+              "type" : "component"
+            } ],
+            "id" : "f8c0e2a7-41a9-4112-937e-5e3fdfd52671",
+            "name" : "col1",
+            "title" : "Column 1",
             "type" : "region"
           } ],
           "definition" : "community_layout:section",
-          "id" : "a7bf7489-84e7-486a-96fa-9fc9a57b8b86",
+          "id" : "bd787f6a-c245-4834-8a76-ae435a642c07",
           "type" : "component"
         } ],
         "id" : "cf972ba8-05f7-42bb-afab-2515024e0039",
